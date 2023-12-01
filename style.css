@@ -1,0 +1,39 @@
+* {
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightblue;
+  }
+  
+  .container {
+    max-width: 80%;
+    min-width: 80%;
+  }
+  
+  
+  
+  h1 {
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  #party-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Rest of your styles for the party container */
+  }
+  
+  .party {
+    border-top: 1px solid #000000;
+    padding-bottom: 15px; /* Adjust space between parties */
+    width: 100%;
+  }
+  
